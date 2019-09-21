@@ -1,0 +1,56 @@
+### Rails ###
+.rspec
+/coverage/
+/spec/tmp
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# unused currently: added here just to prevent accidental leakage)
+config/initializers/secret_token.rb
+config/master.key
+
+# dotenv
+.env
+.env.test
+
+## Environment normalization:
+/.bundle
+/vendor/bundle
+
+# Ignore Byebug command history file.
+.byebug_history
+
+# Ignore node_modules
+node_modules/
+
+# Ignore precompiled javascript packs
+/public/packs
+/public/packs-test
+/public/assets
+
+# Ignore yarn files
+/yarn-error.log
+yarn-debug.log*
+npm-debug.log*
+.yarn-integrity
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Ignore uploaded files in development
+/storage/*
+!/storage/.keep
+
+
+# Ignore master key for decrypting credentials and more.
+/config/master.key
