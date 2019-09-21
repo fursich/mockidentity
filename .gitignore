@@ -8,6 +8,7 @@
 /tmp/*
 !/log/.keep
 !/tmp/.keep
+/db/*.sqlite3
 
 # unused currently: added here just to prevent accidental leakage)
 config/initializers/secret_token.rb
